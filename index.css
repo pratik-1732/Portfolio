@@ -1,14 +1,23 @@
 * {
   padding: 0;
   margin: 0;
-  background-color: black;
+  /* background-color: black; */
   text-decoration: none;
   box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+.max-width {
+  padding: 0 80px;
+  margin: auto;
+  max-width: 1300px;
 }
 
 /* navbar */
-.navbar {
+.nav-bar .max-width {
   display: flex;
+  justify-content: flex-end;
+}
+.navbar {
   justify-content: flex-end;
   position: fixed;
   padding: 2rem 0;
@@ -16,7 +25,7 @@
   font-family: "Times New Roman", Times, serif;
 }
 .right-side {
-  padding-right: 14rem;
+  padding-right: 3rem;
 }
 .nav-titles li a {
   display: block;
@@ -28,4 +37,32 @@
 .nav-titles li {
   list-style: none;
   display: inline-block;
+}
+
+/* home */
+.menu-section {
+  background-color: black;
+  height: 100vh;
+  min-height: 500px;
+  display: flex;
+}
+.menu-section .max-width {
+  width: 100%;
+  display: flex;
+}
+.home-content {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+  line-height: 3rem;
+  letter-spacing: 2px;
+}
+.menu-section .home-content .text1 {
+  font-size: 5rem;
+  padding: 1.5rem;
+}
+.menu-section .home-content .text2 {
+  font-size: 2rem;
+  padding: 1rem;
 }
