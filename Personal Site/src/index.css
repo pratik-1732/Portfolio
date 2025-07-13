@@ -2,3 +2,19 @@
 html {
   @apply bg-black;
 }
+
+.bg-video {
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}
+.bg-video__content {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
