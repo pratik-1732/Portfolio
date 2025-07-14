@@ -1,4 +1,12 @@
 import React from "react";
+import {
+  Mail,
+  PhoneCall,
+  MapPin,
+  Linkedin,
+  Instagram,
+  Github,
+} from "lucide-react";
 
 const Contact = () => {
   return (
@@ -6,7 +14,7 @@ const Contact = () => {
       {/* video background */}
       <div className="absolute inset-0 z-0">
         <video
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover opacity-50"
           autoPlay
           loop
           muted
@@ -17,66 +25,62 @@ const Contact = () => {
       </div>
 
       {/* content over video */}
-      <div className="relative z-10 container mx-auto max-w-5xl">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
+      <div className="relative z-10 container mx-auto max-w-5xl pt-10">
+        <h1 className="text-5xl text-center font-bold hover:cursor-pointer underline decoration-yellow-500 decoration-2 underline-offset-6 text-white duration-300">
           Get In <span className="text-primary"> Touch</span>
-        </h2>
-        <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities.
-        </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        </h1>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20 items-center">
           {/* Left section */}
           <div className="space-y-8">
-            <h3 className="text-2xl font-semibold mb-6">
-              {" "}
-              Contact Information
-            </h3>
+            <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
             <div className="space-y-6 justify-center">
               {/* Email */}
               <div className="flex items-start space-x-4">
                 <div className="p-3 rounded-full bg-primary/10">
-                  {/* Mail Icon */}
+                  <Mail />
                 </div>
                 <div>
                   <h4 className="font-medium"> Email</h4>
                   <a
-                    href="mailto:hello@gmail.com"
+                    href="mailto:dev.pratik35@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    noorhafowbare@gmail.com
+                    dev.pratik35@gmail.com
                   </a>
                 </div>
               </div>
               {/* Phone */}
               <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10"></div>
+                <div className="p-3 rounded-full bg-primary/10">
+                  <PhoneCall />
+                </div>
                 <div>
                   <h4 className="font-medium"> Phone</h4>
-                  <a
-                    href="tel:+11234567890"
-                    className="text-muted-foreground hover:text-primary transition-colors"
-                  >
-                    +254743789242
-                  </a>
+                  <p className="text-muted-foreground hover:text-primary transition-colors">
+                    +91-8875243247
+                  </p>
                 </div>
               </div>
               {/* Location */}
               <div className="flex items-start space-x-4">
-                <div className="p-3 rounded-full bg-primary/10"></div>
+                <div className="p-3 rounded-full bg-primary/10">
+                  <MapPin />
+                </div>
                 <div>
                   <h4 className="font-medium">Location</h4>
                   <span className="text-muted-foreground hover:text-primary transition-colors">
-                    Nairobi, Kenya
+                    Kolhapur, Maharashtra, India
                   </span>
                 </div>
               </div>
             </div>
             {/* Social icons */}
-            <div className="pt-8">
+            <div className="pt-8 flex flex-col items-center">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
-              <div className="flex space-x-4 justify-center">
-                {/* Add your icons/links here */}
+              <div className="flex space-x-8 justify-center">
+                <Linkedin className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
+                <Instagram className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
+                <Github className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
               </div>
             </div>
           </div>
@@ -97,7 +101,7 @@ const Contact = () => {
                   id="name"
                   name="name"
                   required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-4 py-3 rounded-md border border-input focus:outline-none focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400"
                   placeholder="write your name..."
                 />
               </div>
@@ -113,7 +117,7 @@ const Contact = () => {
                   id="email"
                   name="email"
                   required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary"
+                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400"
                   placeholder="write your email"
                 />
               </div>
@@ -128,13 +132,13 @@ const Contact = () => {
                   id="message"
                   name="message"
                   required
-                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:ring-2 focus:ring-primary resize-none"
+                  className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-none focus:border-yellow-400 focus:ring-1 focus:ring-yellow-400 resize-none"
                   placeholder="Hello, I'd like to talk about..."
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="cosmic-button w-full flex items-center justify-center gap-2"
+                className="cosmic-button w-full flex items-center justify-center gap-2 bg-blue-600 text-white px-3 py-2 rounded-md hover:cursor-pointer hover:bg-blue-800 transition-all duration-300"
               >
                 Send Message
               </button>
