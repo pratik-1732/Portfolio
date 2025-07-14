@@ -3,7 +3,7 @@ import { Sun } from "lucide-react";
 
 const Navbar = () => {
   return (
-    <div className="fixed w-full flex justify-end items-center gap-10 px-10 py-7 bg-transparent">
+    <div className="fixed w-full flex justify-end items-center gap-10 px-10 py-7 bg-transparent z-50">
       <ul className="flex justify-end items-center gap-5">
         <a
           href="#hero"
