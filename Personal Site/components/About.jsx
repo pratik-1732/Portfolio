@@ -24,7 +24,10 @@ const About = () => {
   ];
 
   return (
-    <div className="text-white flex flex-col items-center justify-center p-10">
+    <div
+      className="text-white flex flex-col items-center justify-center p-10"
+      id="about"
+    >
       <h1 className="text-5xl font-bold underline decoration-yellow-500 decoration-2 underline-offset-6">
         About <span className="text-purple-600">Me</span>
       </h1>
