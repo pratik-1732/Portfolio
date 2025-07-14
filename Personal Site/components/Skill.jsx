@@ -42,7 +42,10 @@ const Skill = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center mt-20" id="skill">
+    <div
+      className="flex flex-col items-center justify-center pt-10 min-h-screen"
+      id="skill"
+    >
       <h1 className="text-5xl font-bold hover:cursor-pointer underline decoration-yellow-500 decoration-2 underline-offset-6 text-white duration-300">
         Skills
       </h1>
