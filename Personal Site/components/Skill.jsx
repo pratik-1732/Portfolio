@@ -9,7 +9,7 @@ const Skill = () => {
     },
     {
       title: "React",
-      image: "/images/icons/react.png",
+      image: "/images/icons/react.webp",
     },
     {
       title: "Node.js",
@@ -38,6 +38,14 @@ const Skill = () => {
     {
       title: "PostgreSQL",
       image: "/images/icons/postgre.png",
+    },
+    {
+      title: "Tailwind CSS",
+      image: "/images/icons/tailwind.png",
+    },
+    {
+      title: "MongoDB",
+      image: "/images/icons/mongodb.png",
     },
   ];
 
