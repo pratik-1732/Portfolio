@@ -10,7 +10,10 @@ import {
 
 const Contact = () => {
   return (
-    <div className="relative text-white py-20 mt-20 overflow-hidden min-h-screen" id="contact">
+    <div
+      className="relative text-white py-20 mt-20 overflow-hidden min-h-screen bg-black"
+      id="contact"
+    >
       {/* video background */}
       <div className="absolute inset-0 z-0">
         <video
