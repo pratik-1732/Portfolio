@@ -27,7 +27,7 @@ const Contact = () => {
       {/* content over video */}
       <div className="relative z-10 container mx-auto max-w-5xl pt-10">
         <h1 className="text-5xl text-center font-bold hover:cursor-pointer underline decoration-yellow-500 decoration-2 underline-offset-6 text-white duration-300">
-          Get In <span className="text-primary"> Touch</span>
+          Get In <span className="text-purple-600"> Touch</span>
         </h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20 items-center">
           {/* Left section */}

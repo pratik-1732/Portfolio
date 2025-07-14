@@ -43,7 +43,7 @@ const Project = () => {
   ];
   return (
     <div className="flex flex-col mt-30 max-w-7xl mx-auto px-7 items-center">
-      <h1 className="text-5xl font-bold hover:cursor-pointer hover:underline hover:decoration-yellow-500 decoration-2 underline-offset-6 text-white duration-300">
+      <h1 className="text-5xl font-bold hover:cursor-pointer underline decoration-yellow-500 decoration-2 underline-offset-6 text-white duration-300">
         Projects
       </h1>
       <div className="grid grid-cols-2 gap-10 mt-15">

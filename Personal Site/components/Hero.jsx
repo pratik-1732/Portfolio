@@ -9,9 +9,12 @@ const Hero = () => {
       <p className="text-2xl font-semibold text-gray-300">
         I'm a Full Stack Developer...
       </p>
-      <button className="cursor-pointer mt-15 px-6 py-3 bg-purple-700 text-white text-lg font-semibold rounded-lg hover:bg-purple-800 transition-colors duration-400">
+      <a
+        href="#work"
+        className="cursor-pointer mt-15 px-6 py-3 bg-purple-600 text-white text-lg font-semibold rounded-lg hover:bg-purple-800 transition-colors duration-400"
+      >
         View My Work
-      </button>
+      </a>
     </div>
   );
 };

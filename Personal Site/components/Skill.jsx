@@ -43,7 +43,7 @@ const Skill = () => {
 
   return (
     <div className="flex flex-col items-center justify-center mt-20">
-      <h1 className="text-5xl font-bold hover:cursor-pointer hover:underline hover:decoration-yellow-500 decoration-2 underline-offset-6 text-white duration-300">
+      <h1 className="text-5xl font-bold hover:cursor-pointer underline decoration-yellow-500 decoration-2 underline-offset-6 text-white duration-300">
         Skills
       </h1>
       <div className="grid grid-cols-5 gap-8 px-20 mt-10">
