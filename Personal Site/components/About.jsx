@@ -18,7 +18,7 @@ const About = () => {
     {
       name: "Jawahar Navodaya Vidyalaya, Kolhapur",
       degree: "Secondary School Certificate",
-      from: "2017",
+      from: "2013",
       to: "2018",
     },
   ];

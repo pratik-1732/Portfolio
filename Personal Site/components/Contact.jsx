@@ -81,7 +81,9 @@ const Contact = () => {
             <div className="pt-8 flex flex-col items-center">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-8 justify-center">
-                <Linkedin className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
+                <a href="https://linkedin.com/in/pratikpatil">
+                  <Linkedin className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
+                </a>
                 <Instagram className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
                 <Github className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
               </div>
