@@ -81,11 +81,13 @@ const Contact = () => {
             <div className="pt-8 flex flex-col items-center">
               <h4 className="font-medium mb-4"> Connect With Me</h4>
               <div className="flex space-x-8 justify-center">
-                <a href="https://linkedin.com/in/pratikpatil">
+                <a href="https://www.linkedin.com/in/pratik-patil1732/">
                   <Linkedin className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
                 </a>
                 <Instagram className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
-                <Github className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
+                <a href="https://github.com/pratik-1732">
+                  <Github className="hover:text-yellow-600 h-8 w-8 transition-colors duration-300 cursor-pointer" />
+                </a>
               </div>
             </div>
           </div>
