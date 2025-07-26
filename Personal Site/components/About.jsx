@@ -25,18 +25,18 @@ const About = () => {
 
   return (
     <div
-      className="text-white flex flex-col items-center justify-center p-10 min-h-screen"
+      className="text-white flex flex-col items-center justify-center p-10 lg:min-h-screen"
       id="about"
     >
       <h1 className="text-5xl font-bold underline decoration-yellow-500 decoration-2 underline-offset-6">
         About <span className="text-purple-600">Me</span>
       </h1>
-      <p className="mt-10 text-lg max-w-4xl">
+      <p className="mt-5 md:mt-10 md:text-lg max-w-4xl p-5 lg:p-0">
         I'm passionate about creating elegant solutions to complex problems, and
         I'm constantly learning new technologies and techniques to stay at the
         forefront of the ever-evolving web landscape.
       </p>
-      <ul className="mt-10 text-lg grid grid-cols-3 text-gray-400">
+      <ul className="mt-5 md:mt-10 text-lg grid gap-5 lg:gap-0 lg:grid-cols-3 text-gray-400 p-5 lg:p-0">
         <li className="flex gap-3 items-center">
           <span className="text-purple-500 font-semibold">
             <Mail />
@@ -58,7 +58,7 @@ const About = () => {
       </ul>
       <div className="mt-15 w-full max-w-6xl text-center">
         <h2 className="text-3xl font-semibold">Education</h2>
-        <div className="mt-10 grid grid-cols-3 gap-10">
+        <div className="mt-10 grid md:grid-cols-3 gap-10">
           {study.map((item, index) => (
             <SchoolCard key={index} {...item} />
           ))}

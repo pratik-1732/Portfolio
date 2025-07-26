@@ -62,7 +62,7 @@ const Project = () => {
       <h1 className="text-5xl mb-5 font-bold hover:cursor-pointer underline decoration-yellow-500 decoration-2 underline-offset-6 text-white duration-300">
         Projects
       </h1>
-      <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed mb-20">
+      <p className="md:text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed mb-20">
         Explore my latest work showcasing innovative solutions, cutting-edge
         technologies, and creative problem-solving approaches.
       </p>

@@ -11,7 +11,7 @@ import {
 const Contact = () => {
   return (
     <div
-      className="relative text-white py-20 mt-20 overflow-hidden min-h-screen bg-black"
+      className="relative text-white p-10 lg:py-20 mt-20 overflow-hidden lg:min-h-screen bg-black"
       id="contact"
     >
       {/* video background */}

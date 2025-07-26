@@ -34,17 +34,17 @@ const Hero = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center h-screen text-center"
+      className="flex flex-col items-center justify-center h-screen text-center p-5 md:p-15 lg:p-0"
       id="hero"
     >
-      <h1 className="text-6xl font-bold text-white mb-10">
+      <h1 className="text-4xl md:text-6xl font-bold text-white mb-10">
         Hi, I'm{" "}
         <span className="text-cyan-400">
           {displayedText}
           <span className="animate-pulse">|</span>
         </span>
       </h1>
-      <p className="text-xl max-w-4xl font-semibold text-gray-300">
+      <p className="text-lg md:text-xl md:max-w-4xl font-semibold text-gray-300">
         I'm a full stack developer and recent graduate from IIT(ISM) Dhanbad,
         passionate about building clean, efficient, and user-friendly web
         applications. I love solving problems, learning new technologies, and

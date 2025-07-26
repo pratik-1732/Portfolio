@@ -51,13 +51,13 @@ const Skill = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center pt-10 min-h-screen"
+      className="flex flex-col items-center justify-center pt-10 lg:min-h-screen"
       id="skill"
     >
       <h1 className="text-5xl font-bold hover:cursor-pointer underline decoration-yellow-500 decoration-2 underline-offset-6 text-white duration-300">
         Skills
       </h1>
-      <div className="grid grid-cols-5 gap-8 px-20 mt-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 px-20 mt-10">
         {skillSet.map((skill, index) => (
           <SkillCard key={index} title={skill.title} image={skill.image} />
         ))}
